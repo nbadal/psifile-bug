@@ -16,4 +16,9 @@
         <listener class="com.github.nbadal.psifilebug.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="testAction" class="TestAction" text="Test Action" description="Do the test">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
