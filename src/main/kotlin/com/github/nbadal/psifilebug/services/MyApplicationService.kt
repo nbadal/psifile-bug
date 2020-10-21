@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.nbadal.psifilebug.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.nbadal.psifilebug.MyBundle
 
 class MyApplicationService {
 
